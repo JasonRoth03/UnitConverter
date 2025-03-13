@@ -1,0 +1,103 @@
+### General ###
+*.class
+*.log
+*.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+!.gitignore
+
+### Ignore target directory (compiled files) ###
+target/
+out/
+bin/
+
+### IntelliJ/WebStorm/JetBrains IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Eclipse ###
+*.classpath
+*.project
+*.settings/
+
+### VS Code ###
+.vscode/
+
+### Build tools ###
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/dists/
+
+### Logs ###
+*.log
+logs/
+log/
+*.pid
+*.seed
+*.pid.lock
+
+### Database ###
+*.h2.db
+*.mv.db
+*.sqlite
+
+### Temporary files ###
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.orig
+
+### OS-Specific ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Spring Boot ###
+/.env
+/.env.local
+/.env.development
+/.env.test
+/.env.production
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+!src/main/resources/application.yml
+!src/main/resources/application.properties
+
+### Security ###
+*.pem
+*.crt
+*.key
+*.p12
+*.jks
